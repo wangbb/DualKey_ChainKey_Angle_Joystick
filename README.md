@@ -1,0 +1,2 @@
+# DualKey_ChainKey_Angle_Joystick
+想將這些硬體整合起來，在看圖時有個快速鍵的小keypad可用。
