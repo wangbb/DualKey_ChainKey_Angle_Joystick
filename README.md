@@ -40,6 +40,11 @@ DualKey的buttonA（離吊繩比較近）, buttonB（離吊繩遠）
 
 ![按鍵設定](./func_doKeys.png)
 按鍵設定(含dualkey, key, joystick)
+chain Dualkey = [PAGEUP], [PAGEDOWN]
+chain key=[DELETE]
+chain joystick = [UP], [RIGHT], [DOWN], [LEFT];    click=[INSERT]
+chain angle= (after calulating delta angle >>   [+]    [-]
+
 
 ## Chain Dualkey的設定、取用非常方便，而且執行速度很快
 ### 但其他串接的周邊，因為是使用STM32與其通訊連接，因此速度不快，建議不要在上面執行太複雜的功能，尤其是想要及時性高的話，不要在程式中設定燈光顏色。
