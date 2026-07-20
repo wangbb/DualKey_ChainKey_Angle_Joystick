@@ -26,19 +26,19 @@ DualKey的buttonA（離吊繩比較近）, buttonB（離吊繩遠）
 ## UIFlow2中寫程式
 要執行可分「一次性測試」、「永久燒錄」兩種。
 執行時得先選擇Com port，只要USB有接好，大概沒問題。
-![初始設定、迴圈]
+
 ##初始化設置、迴圈設置
 
-![事件設定]
+
 ##事件設定
 
-![搖桿設定]
+
 ##搖桿Chain Joystick設定
 
-![旋扭設定]
+
 ##旋扭 ChainAngel設定
 
-![按鍵設定]
+
 ##按鍵設定(含dualkey, key, joystick)
 ###chain Dualkey = [PAGEUP], [PAGEDOWN]
 ###chain key=[DELETE]
