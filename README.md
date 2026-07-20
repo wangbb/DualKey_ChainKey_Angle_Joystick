@@ -26,28 +26,28 @@ DualKey的buttonA（離吊繩比較近）, buttonB（離吊繩遠）
 ## UIFlow2中寫程式
 要執行可分「一次性測試」、「永久燒錄」兩種。
 執行時得先選擇Com port，只要USB有接好，大概沒問題。
-![初始設定、迴圈](./setup_loop.png) 
-初始化設置、迴圈設置
+![初始設定、迴圈]
+##初始化設置、迴圈設置
 
-![事件設定](./events.png)
-事件設定
+![事件設定]
+##事件設定
 
-![搖桿設定](./func_doJoystick.png)
-搖桿Chain Joystick設定
+![搖桿設定]
+##搖桿Chain Joystick設定
 
-![旋扭設定](./func_doAngle.png)
-旋扭 ChainAngel設定
+![旋扭設定]
+##旋扭 ChainAngel設定
 
-![按鍵設定](./func_doKeys.png)
-按鍵設定(含dualkey, key, joystick)
-chain Dualkey = [PAGEUP], [PAGEDOWN]
-chain key=[DELETE]
-chain joystick = [UP], [RIGHT], [DOWN], [LEFT];    click=[INSERT]
-chain angle= (after calulating delta angle >>   [+]    [-]
+![按鍵設定]
+##按鍵設定(含dualkey, key, joystick)
+###chain Dualkey = [PAGEUP], [PAGEDOWN]
+###chain key=[DELETE]
+###chain joystick = [UP], [RIGHT], [DOWN], [LEFT];    click=[INSERT]
+###chain angle= (after calulating delta angle >>   [+]    [-]
 
 
 ## Chain Dualkey的設定、取用非常方便，而且執行速度很快
-### 但其他串接的周邊，因為是使用STM32與其通訊連接，因此速度不快，建議不要在上面執行太複雜的功能，尤其是想要及時性高的話，不要在程式中設定燈光顏色。
+## 但其他串接的周邊，因為是使用STM32與其通訊連接，因此速度不快，建議不要在上面執行太複雜的功能，尤其是想要及時性高的話，不要在程式中設定燈光顏色。
 
 這個範例會使用時，得一直接著USB，模擬HID的鍵盤。
 UIFlow2不支援同時模擬 USB鍵盤跟滑鼠。所以這程式只模擬鍵盤。
